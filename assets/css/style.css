@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.text-primary{
+    color: #DA4557 !important;
+}
+.bg-primary{
+    background-color: #DA4557 !important;
+}
+
+.card-bg-gradient {
+    background: linear-gradient(to left, rgba(218, 69, 87, 0) , rgba(218, 69, 87, 0.14) ) !important;
+}
+
+.rounded-4xl{
+    border-radius: 2rem !important; /* 32px */
+}
+
+.rounded-5xl{
+    border-radius: 2.5rem !important; /* 40px */
+}
+
+.rounded-6xl{
+    border-radius: 3rem !important; /* 48px */
+}
+
+.bg-footer{
+    background-color: #f8dadd !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f8dadd;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DA4557;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #DA4557;
+  }
+
+  .toast-enter {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  .toast-enter-active {
+    transform: translateX(0);
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  .toast-exit {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .toast-exit-active {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+
+  /* Hide the Google Translate badge */
+.goog-logo-link {
+    display: none !important;
+  }
+  
+  /* Adjust widget styling */
+  .goog-te-gadget {
+    font-size: 0;
+  }
+  .goog-te-gadget span {
+    font-size: 16px;
+    color: #333; /* Change color to match your theme */
+  }
+  
